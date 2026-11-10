@@ -1,0 +1,22 @@
+# Dados locais
+dados_brutos/
+*.csv
+*.zip
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos temporários
+.vscode/
+.DS_Store
